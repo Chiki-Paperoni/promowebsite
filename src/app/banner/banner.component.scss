@@ -7,7 +7,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    animation: slide 50s linear;
+    animation: slide 50s linear infinite;
   }
   position: relative;
   padding: 3rem 0;
@@ -30,6 +30,6 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
 }
