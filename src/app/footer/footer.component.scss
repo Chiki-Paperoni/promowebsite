@@ -1,0 +1,60 @@
+.container {
+  margin-top: 5rem;
+  position: relative;
+  .cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: max(24rem, 226px);
+    }
+    .price {
+      max-width: 470px;
+      min-width: 221px;
+      h2 {
+        font-size: max(3.75rem, 34px);
+        font-weight: bold;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        line-height: 140%;
+        margin-bottom: 1.6rem;
+      }
+      p {
+        font-family: Klyakson;
+        font-style: normal;
+        font-weight: normal;
+        font-size: max(2.5rem, 24px);
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #ffd233;
+        margin-bottom: 3.2rem;
+      }
+    }
+    .btn {
+      background: #ffd233;
+      padding: max(1.25rem, 21px) max(3.2rem, 29px);
+      width: max-content;
+      text-transform: uppercase;
+      font-size: max(14px, 0.9rem);
+    }
+  }
+  .logo {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    img {
+      width: max(142px, 16.2rem);
+    }
+  }
+}
+@media screen and (max-width: 786px) {
+  .container {
+    .cols {
+      img {
+        position: relative;
+        order: 2;
+        right: -36%;
+      }
+    }
+  }
+}

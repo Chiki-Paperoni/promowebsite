@@ -1,0 +1,18 @@
+.fadedText {
+  font-size: max(3.75rem, 32px);
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140.4%;
+  text-transform: uppercase;
+  position: relative;
+  .cuirtains {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, transparent 20%, #6a23e6 95%);
+  }
+}
