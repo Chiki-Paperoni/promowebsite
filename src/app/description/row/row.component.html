@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="number">
+    <span class="digit">{{ row.digit }}</span>
+    <span class="name">{{ row.title }}</span>
+  </div>
+  <div class="description">{{ row.description }}</div>
+  <div class="popup" [class.full]="toggled">
+    <img src="{{ row.img }}" alt="" />
+  </div>
+  <img
+    class="arrow"
+    src="/assets/popup.png"
+    alt=""
+    (click)="toggled = !toggled"
+    [class.rotate]="toggled"
+  />
+</div>

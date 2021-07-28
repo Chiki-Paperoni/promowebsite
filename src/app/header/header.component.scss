@@ -1,0 +1,87 @@
+header {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #5800e7 0%, #d06cff 100%);
+  .container {
+    nav {
+      padding-top: 3.4rem;
+    }
+    .hollow {
+      -webkit-text-stroke: 1px white;
+      color: transparent;
+    }
+    h1 {
+      margin-top: 8rem;
+      text-transform: uppercase;
+      color: white;
+      font-size: max(8rem, 60px);
+      font-style: normal;
+      font-weight: bold;
+      line-height: 140.4%;
+      .hollow {
+        margin-right: 12px;
+      }
+    }
+    .description {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: max(1.25rem, 16px);
+      line-height: 140.4%;
+      color: white;
+      max-width: 500px;
+      padding-left: 8rem;
+      margin-top: 5rem;
+      .btn {
+        margin-top: 2rem;
+        background: #ffd233;
+        padding: max(1.25rem, 21px) max(3.2rem, 29px);
+        width: fit-content;
+        text-transform: uppercase;
+      }
+    }
+    .properties {
+      color: white;
+      font-size: 1.5rem;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      margin-top: 8rem;
+      display: flex;
+      align-items: center;
+      img {
+        height: 1.25rem;
+        margin-left: 8px;
+      }
+    }
+    .mainBanka {
+      position: absolute;
+      right: 14%;
+      bottom: 0%;
+      min-width: 340px;
+      width: 33rem;
+    }
+  }
+}
+
+@media screen and (max-width: 856px) {
+  header {
+    .container {
+      .description {
+        padding-left: 0;
+      }
+      .properties {
+        display: none;
+      }
+      .mainBanka {
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
+}
