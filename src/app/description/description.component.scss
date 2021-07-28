@@ -3,6 +3,7 @@
   color: white;
   section {
     margin-bottom: 5rem;
+    padding: 5rem 0;
   }
   .title {
     font-size: max(2.5rem, 34px);
@@ -16,9 +17,10 @@
       margin-bottom: 5rem;
     }
   }
-  #reason {
+  .reason {
     .bubbles {
       position: absolute;
+      width: max(19rem, 150px);
     }
     .pos1 {
       top: 15%;
@@ -59,11 +61,43 @@
       top: 40%;
       left: -3%;
     }
+    .pos9 {
+      transform: scale(0.8);
+      top: -5%;
+      right: 28%;
+    }
+    .pos10 {
+      transform: scale(0.4);
+      top: -20%;
+      right: -8%;
+    }
+    .pos11 {
+      transform: scale(0.6);
+      bottom: -10%;
+      right: -5%;
+    }
+    .pos12 {
+      transform: scale(0.35);
+      bottom: -10%;
+      left: 20%;
+    }
+    .pos13 {
+      transform: scale(0.3);
+      top: -20%;
+      left: 5%;
+    }
+    .pos14 {
+      transform: scale(0.6);
+      top: 20%;
+      left: -8%;
+    }
     position: relative;
     .title {
-      margin-bottom: 3.5rem;
+      margin-bottom: max(4.7rem, 60px);
     }
     .content {
+      position: relative;
+      z-index: 1;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -72,7 +106,7 @@
         .rel {
           position: relative;
           z-index: 1;
-          width: max(22rem, 250px);
+          width: max(22rem, 220px);
         }
         .abs {
           z-index: 0;
@@ -95,6 +129,121 @@
           font-size: max(1.25rem, 16px);
           font-style: normal;
           font-weight: normal;
+        }
+      }
+    }
+  }
+  .second {
+    .content {
+      .layers {
+        order: 2;
+      }
+    }
+  }
+}
+@media screen and (max-width: 670px) {
+  .wrapper {
+    section {
+    }
+    .title {
+    }
+
+    #why {
+      .title {
+      }
+    }
+    .reason {
+      .bubbles {
+      }
+      .pos1 {
+        top: 0%;
+        right: -12%;
+      }
+      .pos2 {
+        top: 30%;
+        right: -12%;
+      }
+      .pos3 {
+        top: 45%;
+        right: -8%;
+      }
+      .pos4 {
+        top: 60%;
+        right: -6%;
+      }
+      .pos5 {
+        top: 80%;
+        right: -15%;
+      }
+      .pos6 {
+        transform: scale(0.7);
+        top: 60%;
+        left: -15%;
+      }
+      .pos7 {
+        transform: scale(1.2);
+        top: 90%;
+        left: 0%;
+      }
+      .pos8 {
+        display: none;
+      }
+      .pos9 {
+        top: 0%;
+        right: -15%;
+      }
+      .pos10 {
+        transform: scale(0.7);
+        top: 25%;
+        right: -10%;
+      }
+      .pos11 {
+        top: 55%;
+        right: -20%;
+      }
+      .pos12 {
+        transform: scale(0.7);
+        bottom: 5%;
+        left: 80%;
+      }
+      .pos13 {
+        transform: scale(1);
+        top: 40%;
+        left: 5%;
+      }
+      .pos14 {
+        transform: scale(1);
+        top: 80%;
+        left: -20%;
+      }
+
+      .title {
+      }
+      .content {
+        flex-direction: column;
+
+        .layers {
+          order: 2;
+          .rel {
+          }
+          .abs {
+            display: none;
+          }
+        }
+        .text {
+          width: 100%;
+          order: 1;
+          margin-bottom: 50px;
+          h3 {
+          }
+          p {
+          }
+        }
+      }
+    }
+    .second {
+      .content {
+        .layers {
         }
       }
     }
