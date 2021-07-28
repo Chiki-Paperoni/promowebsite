@@ -11,7 +11,5 @@ export class RowComponent implements OnInit {
   @Input() row!: Row;
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.row);
-  }
+  ngOnInit(): void {}
 }

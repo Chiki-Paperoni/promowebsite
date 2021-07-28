@@ -14,7 +14,7 @@ import { RowComponent } from './description/row/row.component';
     RowComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule.withServerTransition({ appId: 'serverApp' })
   ],
   providers: [],
   bootstrap: [AppComponent]
