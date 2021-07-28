@@ -3,6 +3,7 @@
   color: #6a23e6;
   background-color: #fff;
   width: max-content;
+  min-width: 100vw;
   overflow: hidden;
 
   font-weight: bold;
@@ -11,4 +12,5 @@
 
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  text-align: center;
 }
