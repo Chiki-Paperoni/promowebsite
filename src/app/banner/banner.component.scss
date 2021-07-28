@@ -1,4 +1,15 @@
 .banner {
+  span {
+    position: absolute;
+    height: fit-content;
+    width: max-content;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    animation: slide 50s linear;
+  }
+  position: relative;
   padding: 3rem 0;
   color: #6a23e6;
   background-color: #fff;
@@ -13,4 +24,12 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-align: center;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
