@@ -9,6 +9,7 @@
     font-size: max(2.5rem, 34px);
     max-width: max(25rem, 280px);
     letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 
   #why {
@@ -119,6 +120,7 @@
         max-width: 565px;
         width: 50%;
         h3 {
+          text-transform: uppercase;
           font-size: max(1.9rem, 24px);
           font-style: normal;
           font-weight: bold;
@@ -138,24 +140,6 @@
       .layers {
         order: 2;
       }
-    }
-  }
-  .fadedText {
-    font-size: max(3.75rem, 32px);
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 140.4%;
-    text-transform: uppercase;
-    position: relative;
-    .cuirtains {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      pointer-events: none;
-      background: linear-gradient(180deg, transparent 20%, #6a23e6 95%);
     }
   }
 }

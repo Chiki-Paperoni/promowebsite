@@ -15,6 +15,12 @@
     .digit {
       margin-right: 0.8rem;
     }
+    .name {
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-style: normal;
+      font-weight: bold;
+    }
   }
   .description {
     font-size: max(1.25rem, 16px);
