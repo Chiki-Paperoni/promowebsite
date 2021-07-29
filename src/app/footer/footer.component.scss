@@ -1,11 +1,17 @@
 .container {
+  #bottomlogo {
+    img {
+      width: max(142px, 16.2rem);
+    }
+  }
+
   margin-top: 5rem;
   position: relative;
   .cols {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
+    #bottombanka {
       width: max(24rem, 226px);
     }
     .price {
@@ -43,8 +49,37 @@
   .logo {
     margin-top: 6rem;
     margin-bottom: 3rem;
-    img {
-      width: max(142px, 16.2rem);
+    display: flex;
+    align-items: center;
+
+    .links {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: max(1.25rem, 14px);
+      color: white;
+      span {
+        margin-left: 5rem;
+      }
+    }
+    .scroll {
+      cursor: pointer;
+      margin-left: auto;
+      a {
+        display: flex;
+        align-items: center;
+        .scroller {
+          height: max(4.9rem, 24px);
+        }
+        span {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 600;
+          font-size: max(1.25rem, 14px);
+          color: white;
+          margin-left: 1.5rem;
+        }
+      }
     }
   }
 }
@@ -56,6 +91,9 @@
         order: 2;
         right: -10%;
       }
+    }
+    .links {
+      display: none;
     }
   }
 }
