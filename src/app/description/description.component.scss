@@ -22,73 +22,107 @@
     .bubbles {
       position: absolute;
       width: max(19rem, 150px);
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-fill-mode: none;
+      transform: matrix(1, 0, 0, 1, 0, 0);
     }
     .pos1 {
       top: 15%;
       right: 0;
+      animation-name: animation_1_1;
+      animation-duration: 13s;
+      animation-delay: 0s;
     }
     .pos2 {
       top: -8%;
       right: 20%;
-      transform: scale(0.5);
+      animation-name: animation_1_1;
+      animation-duration: 32s;
+      animation-delay: 0s;
     }
     .pos3 {
       right: 15%;
       top: 55%;
-      transform: scale(0.4);
+      animation-name: animation_1_2;
+      animation-duration: 18s;
+      animation-delay: 0s;
     }
     .pos4 {
       top: 25%;
       right: 25%;
-      transform: scale(0.15);
+
+      animation-name: animation_1_3;
+      animation-duration: 9s;
+      animation-delay: 0s;
     }
     .pos5 {
-      transform: scale(0.5);
       bottom: 0%;
       right: 40%;
+      animation-name: animation_1_4;
+      animation-duration: 14s;
+      animation-delay: 0s;
     }
     .pos6 {
       top: 12%;
       right: 45%;
-      transform: scale(0.35);
+      animation-name: animation_1_5;
+      animation-duration: 15s;
+      animation-delay: 0s;
     }
     .pos7 {
-      transform: scale(0.28);
       top: 0%;
       left: 0%;
+      animation-name: animation_1_6;
+      animation-duration: 17s;
+      animation-delay: 0s;
     }
     .pos8 {
-      transform: scale(0.6);
       top: 40%;
       left: -3%;
+      animation-name: animation_1_7;
+      animation-duration: 11s;
+      animation-delay: 0s;
     }
     .pos9 {
-      transform: scale(0.8);
+      animation-name: animation_1_7;
+      animation-duration: 11s;
+      animation-delay: 0s;
       top: -5%;
       right: 28%;
     }
     .pos10 {
-      transform: scale(0.4);
+      animation-name: animation_1_4;
+      animation-duration: 14s;
+      animation-delay: 0s;
       top: -20%;
       right: -8%;
     }
     .pos11 {
-      transform: scale(0.6);
+      animation-name: animation_1_7;
+      animation-duration: 14s;
+      animation-delay: 0s;
       bottom: -10%;
       right: -5%;
     }
     .pos12 {
-      transform: scale(0.35);
+      animation-name: animation_1_5;
+      animation-duration: 5s;
+      animation-delay: 0s;
       bottom: -10%;
       left: 20%;
     }
     .pos13 {
-      transform: scale(0.3);
+      animation-name: animation_1_3;
+      animation-duration: 8s;
+      animation-delay: 0s;
       top: -20%;
       left: 5%;
     }
     .pos14 {
-      transform: scale(0.6);
+      animation-name: animation_1_1;
+      animation-duration: 9s;
+      animation-delay: 0s;
       top: 20%;
       left: -8%;
     }
