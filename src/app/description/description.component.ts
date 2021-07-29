@@ -9,35 +9,35 @@ import { Row } from './row';
 export class DescriptionComponent implements OnInit {
   rows: Array<Row> = [
     {
-      digit: '01',
+      digit: '/assets/01.png',
       title: 'Размер',
       description:
         'Вы можете подобрать абсолютно любой объем банки исходя из ваших потребностей',
       img: '/assets/r1.png',
     },
     {
-      digit: '02',
+      digit: '/assets/02.png',
       title: 'Дизайн',
       description:
         'Минималистичный дизайн приковывает взгляды. Благодаря ему можно использовать банку в качестве подарка',
       img: '/assets/r2.png',
     },
     {
-      digit: '03',
+      digit: '/assets/03.png',
       title: 'Материал',
       description:
         'Стекло отлично пропускает свет - банку можно использовать для растений или вместо аквариума',
       img: '/assets/r3.png',
     },
     {
-      digit: '04',
+      digit: '/assets/04.png',
       title: 'Мобильность',
       description:
         'Банку можно взять куда угодно. Нужно транспортировать варенье или мед? Возьмите банку',
       img: '/assets/r4.png',
     },
     {
-      digit: '05',
+      digit: '/assets/05.png',
       title: 'доступность',
       description:
         'Больше не нужно покупать дорогие контейнеры. Средняя стоимость банки от 10 до 50 гривен',

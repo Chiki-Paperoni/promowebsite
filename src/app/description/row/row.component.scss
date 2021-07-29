@@ -7,13 +7,19 @@
 .row {
   position: relative;
   display: grid;
+  align-items: flex-start;
   grid-template-columns: 2fr 3fr 1fr;
   border-bottom: 1px solid #ffffff;
   margin-bottom: max(2.5rem, 24px);
   .number {
     font-size: max(1.8rem, 24px);
+    align-items: center;
+    display: flex;
+
     .digit {
       margin-right: 0.8rem;
+      max-height: 39.59px;
+      width: max(2.5rem, 32px);
     }
     .name {
       letter-spacing: 0.02em;
@@ -27,6 +33,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
+    margin-bottom: 2rem;
   }
   .popup {
     transition: height 0.3s;
@@ -34,7 +41,7 @@
     overflow: hidden;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-bottom: 1.5rem;
+
     img {
       width: 100%;
     }
