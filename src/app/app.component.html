@@ -1,3 +1,14 @@
-<app-header></app-header>
+<app-header (buy)="showPopup = true"></app-header>
 <app-description></app-description>
-<app-footer></app-footer>
+<app-footer (buy)="showPopup = true"></app-footer>
+<div *ngIf="showPopup" class="popup" (click)="showPopup = false">
+  <div class="content">
+    <h2>Упс,купить нельзя</h2>
+    <p>
+      Мы очень рады, что ты проявил интерес к банке, но это не коммерческий
+      проект и купить еe тут не получится. Зато получится в любом интернет-
+      магазине с доставкой на дом :)
+    </p>
+    <img src="/assets/popup.png" alt="" />
+  </div>
+</div>

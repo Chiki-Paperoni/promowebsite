@@ -44,6 +44,7 @@ export class DescriptionComponent implements OnInit {
       img: '/assets/r5.png',
     },
   ];
+
   constructor() {}
 
   ngOnInit(): void {}
